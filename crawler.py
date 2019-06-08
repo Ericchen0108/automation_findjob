@@ -471,8 +471,8 @@ def load_104_newpeople_main(search_url, filename='./crawler.csv'):
 
 
 def gmap():
-    gmaps.configure(api_key="AIzaSyABbkTh3c7pQEVIIaLRHdLPtkuVjeWU9Oc")
-    geolocator = GoogleV3(api_key="AIzaSyABbkTh3c7pQEVIIaLRHdLPtkuVjeWU9Oc")
+    gmaps.configure(api_key="")
+    geolocator = GoogleV3(api_key="")
 
     # 開啟CSV讀首行參數
     with open(selection_file_name, newline='') as csvfile:
